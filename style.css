@@ -1,0 +1,48 @@
+#grid {
+    width: 1500px;
+    height: 750px;
+
+    position:relative;
+    margin:auto;
+    margin-top: 3%;
+    box-sizing: border-box;
+
+    overflow: auto;
+}
+
+#tools {
+    width: 30%;
+    height: 7.5%;
+
+    bottom: 0;
+    position:relative;
+    margin: auto;
+}
+
+.button {
+    height: 100%;
+    width: 19%;
+
+    border: none;
+    outline: none;
+    border-bottom: 4px solid transparent;
+
+    background-color: rgb(189, 189, 189);
+}
+
+.button:active {
+    background-color: rgb(155, 155, 155);
+}
+
+.tool:focus {
+    border-bottom: 4px solid rgb(0, 77, 192);
+}
+
+.node {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+
+    float: left;
+}
